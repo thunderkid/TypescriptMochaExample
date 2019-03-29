@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+          "core/*": ["common/ts/*"],
+          "createdByBuild/*": ["apps/OwlAdmin/out/createdByBuild/*"]
+      },
+      "outDir": "out/built/",
+      "module": "esnext",
+      "target": "es5",
+      "lib": [
+          "dom",
+          "dom.iterable",
+          "es5",
+          "es2015",
+          "es2016"
+      ],
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "allowJs": true,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "rootDir": "../..",
+      "noEmitOnError": false,
+      "noImplicitReturns": false,
+      "noImplicitThis": true,
+      "noImplicitAny": false,
+      "strictNullChecks": false,
+      "strictPropertyInitialization": false,
+      "noUnusedLocals": false,
+      "experimentalDecorators": true
+  },
+  "include": [
+      "."
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+  
+}

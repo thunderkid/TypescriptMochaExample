@@ -1,0 +1,22 @@
+{
+  "name": "TsMochaTests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mochatest": "mocha --require ts-node/register --require tsconfig-paths/register test/**/*.ts",
+    "test": "set TS_NODE_PROJECT=test/tsconfig.json&& npm run mochatest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.3",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.3.4000"
+  }
+}
